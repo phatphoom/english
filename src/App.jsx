@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-
+import './index.css'
+import Grammar from './Grammar'
 function App() {
   return (
       <>
-        <h1>Test deploy</h1>
+      <Grammar />
       </>
   )
 }
